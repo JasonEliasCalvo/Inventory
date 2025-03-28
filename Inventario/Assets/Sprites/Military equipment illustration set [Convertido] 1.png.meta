@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 9beb2c1b24d74224f89fcddfbd815bd3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1580
+        width: 1121
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74badc529e3c11149a35957d16e2f874
+      internalID: 731764838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1607
+        width: 234
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce47d0016118d1c4a84ab53bc0c8ddcb
+      internalID: 378727236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1579
+        width: 223
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a1dc2009ff6da41a55535ce54910b8
+      internalID: 1575984936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1493
+        width: 102
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa19d9a5f9a7cb45af05c8b706cbfaa
+      internalID: -1820808558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_4
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1666
+        width: 578
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b5d1100e8fcbb4dada716a5f55d51a
+      internalID: -567679519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_5
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1584
+        width: 513
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cd9739b561ea14b8aca6469b25d397
+      internalID: -315445796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_6
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1594
+        width: 732
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca6e477e42cb414892573b2c9b0ca0a
+      internalID: -912782168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_7
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 1434
+        width: 195
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737a479874195c24d99495d236496fc4
+      internalID: 1415089134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_8
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1471
+        width: 151
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135fb0426995bd24396d30bcc4602330
+      internalID: -293333504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1222
+        width: 102
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538b347410defd94c806130b41d91d07
+      internalID: 1992612568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_10
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1555
+        width: 223
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c436bec4b465961468af78926382752e
+      internalID: -1269489025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1225
+        width: 138
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51f14ec9ca149245812ad2979bb311c
+      internalID: 1515455624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1189
+        width: 168
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b52dc8778ff29a47ae4d766d0a712a4
+      internalID: 1788658153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_13
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1206
+        width: 243
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4acd6549b99e784d9c2468ae863998a
+      internalID: 408835380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_14
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1216
+        width: 479
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bb95571a4d7e741817cd736b47adf8
+      internalID: -1838054646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_15
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1243
+        width: 232
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deb27f6eef27f74db3d151e23974578
+      internalID: 1478516187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_16
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1166
+        width: 221
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1464585f47166414b80852328bde4ea2
+      internalID: 1254118958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_17
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1367
+        width: 746
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cd75ffc1c64cc4081b94b8cd5f2c11
+      internalID: -1353874252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_18
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 1094
+        width: 267
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7469610ff4fa34841a9f0b21d257c2e7
+      internalID: 896738828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_19
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 857
+        width: 287
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc9d31dc0f87d64cb854b194acc20f0
+      internalID: 1287135401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 449
+        width: 218
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a963b9bc9c4e9e4587608c9dbeaf761
+      internalID: 964712008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 440
+        width: 105
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a4834354a7df147bb74713b5415663
+      internalID: 990465357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_22
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 949
+        width: 38
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e2a95c1dcb54f478ee7eb3e8f9d7ac
+      internalID: -2140736817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_23
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 960
+        width: 97
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29507f51f54e5d54d90a5d260a6fd234
+      internalID: 1987970332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_24
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 963
+        width: 97
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfe32540cc74d546a2ec3c57f8b813c
+      internalID: 195921777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_25
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 791
+        width: 262
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64395244bf5d5fb41816f45ab13e2e5c
+      internalID: -872006357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_26
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 952
+        width: 154
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f34704e34b4d314cb8ad06b3543f58f
+      internalID: -735069646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_27
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1125
+        width: 76
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9549bf0b9b126ca4a91481420639fd4c
+      internalID: -579031426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 949
+        width: 48
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63a2d8eedb9b604195fbde1b5ed7aa8
+      internalID: 1198067828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_29
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 949
+        width: 47
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fecacf1580b67347b953f8db61dfe0b
+      internalID: -1805722119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_30
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 958
+        width: 120
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427b3aae6ea95ad49bd7c61db783caa6
+      internalID: 443834220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_31
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 730
+        width: 189
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d060d9195298b4f86feb8853fb682f
+      internalID: -1891634868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_32
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 842
+        width: 424
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4016d8883ca6a3f499effc5fbdca4455
+      internalID: 1330378929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_33
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 444
+        width: 106
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdf54d342788984fbff67781be2c3bf
+      internalID: 899503186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_34
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 444
+        width: 120
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af7b6b2b8db61f4cb2bd083277aae98
+      internalID: 481599569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_35
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 458
+        width: 465
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6054b7c6c7f3b4ba05e8eb7fb05bc7
+      internalID: 706744052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_36
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 439
+        width: 295
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b893343f85657d4f8c82058daec4c2e
+      internalID: -621771162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_37
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 584
+        width: 203
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33685f7fd0dcf34080b4f687f191e85
+      internalID: 749148219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_38
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 430
+        width: 179
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fe2f59ec3447e44a07546104f6ca66
+      internalID: 1963566531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_39
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 656
+        width: 293
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f979ff9fb1500b4a81366eee7d1dd28
+      internalID: -677318744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_40
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 612
+        width: 296
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e52e9a912241a14fbe363d20af5fe61
+      internalID: 1009159997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 664
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646e7e203ed5d842a39f647d624e33b
+      internalID: -1707126026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_42
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 391
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe2307173736cf44a6f97504c93e3f4
+      internalID: 1576874907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_43
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 393
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a322e3a3b317f43a0ee6955e6b4d89
+      internalID: 1950861023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_44
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 302
+        width: 319
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bc07503bf51ed4b8e1755c2383df9e
+      internalID: 499207729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_45
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 8
+        width: 1073
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da194e4fc87d80e489c0560ed4cb6464
+      internalID: 329709960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_46
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 0
+        width: 915
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcbacf7a62557f4fae728b4496ba8c5
+      internalID: 1439737165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Military equipment illustration set [Convertido] 1_47
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 146
+        width: 278
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea0915746ad70340b309b1015818503
+      internalID: -549435084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Military equipment illustration set [Convertido] 1_0: 731764838
+      Military equipment illustration set [Convertido] 1_1: 378727236
+      Military equipment illustration set [Convertido] 1_10: -1269489025
+      Military equipment illustration set [Convertido] 1_11: 1515455624
+      Military equipment illustration set [Convertido] 1_12: 1788658153
+      Military equipment illustration set [Convertido] 1_13: 408835380
+      Military equipment illustration set [Convertido] 1_14: -1838054646
+      Military equipment illustration set [Convertido] 1_15: 1478516187
+      Military equipment illustration set [Convertido] 1_16: 1254118958
+      Military equipment illustration set [Convertido] 1_17: -1353874252
+      Military equipment illustration set [Convertido] 1_18: 896738828
+      Military equipment illustration set [Convertido] 1_19: 1287135401
+      Military equipment illustration set [Convertido] 1_2: 1575984936
+      Military equipment illustration set [Convertido] 1_20: 964712008
+      Military equipment illustration set [Convertido] 1_21: 990465357
+      Military equipment illustration set [Convertido] 1_22: -2140736817
+      Military equipment illustration set [Convertido] 1_23: 1987970332
+      Military equipment illustration set [Convertido] 1_24: 195921777
+      Military equipment illustration set [Convertido] 1_25: -872006357
+      Military equipment illustration set [Convertido] 1_26: -735069646
+      Military equipment illustration set [Convertido] 1_27: -579031426
+      Military equipment illustration set [Convertido] 1_28: 1198067828
+      Military equipment illustration set [Convertido] 1_29: -1805722119
+      Military equipment illustration set [Convertido] 1_3: -1820808558
+      Military equipment illustration set [Convertido] 1_30: 443834220
+      Military equipment illustration set [Convertido] 1_31: -1891634868
+      Military equipment illustration set [Convertido] 1_32: 1330378929
+      Military equipment illustration set [Convertido] 1_33: 899503186
+      Military equipment illustration set [Convertido] 1_34: 481599569
+      Military equipment illustration set [Convertido] 1_35: 706744052
+      Military equipment illustration set [Convertido] 1_36: -621771162
+      Military equipment illustration set [Convertido] 1_37: 749148219
+      Military equipment illustration set [Convertido] 1_38: 1963566531
+      Military equipment illustration set [Convertido] 1_39: -677318744
+      Military equipment illustration set [Convertido] 1_4: -567679519
+      Military equipment illustration set [Convertido] 1_40: 1009159997
+      Military equipment illustration set [Convertido] 1_41: -1707126026
+      Military equipment illustration set [Convertido] 1_42: 1576874907
+      Military equipment illustration set [Convertido] 1_43: 1950861023
+      Military equipment illustration set [Convertido] 1_44: 499207729
+      Military equipment illustration set [Convertido] 1_45: 329709960
+      Military equipment illustration set [Convertido] 1_46: 1439737165
+      Military equipment illustration set [Convertido] 1_47: -549435084
+      Military equipment illustration set [Convertido] 1_5: -315445796
+      Military equipment illustration set [Convertido] 1_6: -912782168
+      Military equipment illustration set [Convertido] 1_7: 1415089134
+      Military equipment illustration set [Convertido] 1_8: -293333504
+      Military equipment illustration set [Convertido] 1_9: 1992612568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
