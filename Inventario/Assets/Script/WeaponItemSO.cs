@@ -10,6 +10,9 @@ public enum WeaponType
 [CreateAssetMenu(fileName = "new Weapon", menuName = "newItem/Weapon")]
 public class WeaponItemSO : ItemDataSO
 {
+    [Space(10)]
+    [Header("Weapon Data")]
+
     [SerializeField] int damage;
     [SerializeField] WeaponType type;
 

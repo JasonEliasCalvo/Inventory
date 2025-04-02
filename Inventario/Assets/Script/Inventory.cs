@@ -4,29 +4,32 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    Dictionary<int, int> _items = new();
+    Dictionary<int, int> _items = new()
+    {
+        {0,15}, {1,10}, {2,1}, {3,5}, {4,15}, {5,25}, {6,5}, {7,20}, {8,4}, {9,6}, {10,30},
+    } ;
 
     public Dictionary<int, int> Items { get => _items; set => _items = value; }
 
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            SaveItem(0, 1);
-        }
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            SaveItem(1, 1);
-        }
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            SaveItem(2, 1);
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            SaveItem(3, 1);
-        }
-    }
+    //public void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.F))
+    //    {
+    //        SaveItem(0, 1);
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        SaveItem(1, 1);
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.H))
+    //    {
+    //        SaveItem(2, 1);
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.I))
+    //    {
+    //        SaveItem(3, 1);
+    //    }
+    //}
 
     public void SaveItem(int id, int amount)
     {

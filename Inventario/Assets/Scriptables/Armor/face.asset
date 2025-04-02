@@ -16,5 +16,6 @@ MonoBehaviour:
   _sprite: {fileID: 408835380, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
   _prefab: {fileID: 0}
   _id: 6
-  _valor: 0
+  _description: mascarilla
+  _value: 0
   _type: 4

@@ -15,9 +15,12 @@ public enum ArmorType
 [CreateAssetMenu(fileName = "new Armor", menuName = "newItem/Armor")]
 public class ArmorItemSO : ItemDataSO
 {
-    [SerializeField] int _valor;
+    [Space(10)]
+    [Header("Armor Data")]
+
+    [SerializeField] int _value;
     [SerializeField] ArmorType _type;
 
-    public int Valor { get => _valor; set => _valor = value; }
+    public int Value { get => _value; set => _value = value; }
     public ArmorType Type { get => _type; set => _type = value; }
 }

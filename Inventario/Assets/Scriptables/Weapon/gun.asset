@@ -16,5 +16,6 @@ MonoBehaviour:
   _sprite: {fileID: -549435084, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
   _prefab: {fileID: 0}
   _id: 10
+  _description: pistola
   damage: 10
   type: 0
