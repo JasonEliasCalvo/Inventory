@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dd73a0736e76034e831cf2a0886eba4, type: 3}
   m_Name: knife
   m_EditorClassIdentifier: 
-  _itemName: knife
-  _sprite: {fileID: -567679519, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
+  _itemName: Axe
+  _sprite: {fileID: 1415089134, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
   _prefab: {fileID: 0}
   _id: 11
-  _description: cuchillo
+  _description: Hacha divina
   damage: 999
   type: 1
