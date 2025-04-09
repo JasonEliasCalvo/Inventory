@@ -17,5 +17,6 @@ MonoBehaviour:
   _prefab: {fileID: 0}
   _id: 10
   _description: pistola
+  _itemType: 2
   damage: 10
-  type: 0
+  weaponType: 0

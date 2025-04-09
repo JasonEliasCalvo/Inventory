@@ -19,8 +19,13 @@ public class ConsumableItemSO : ItemDataSO
     [Header("Comsumable Data")]
 
     [SerializeField] int _value;
-    [SerializeField] ConsumableType _type;
+    [SerializeField] ConsumableType consumableType;
+
+    public void OnEnable()
+    {
+        ItemType = ItemTypeEnum.consumable;
+    }
 
     public int Value { get => _value; set => _value = value; }
-    public ConsumableType Type { get => _type; set => _type = value; }
+    public ConsumableType ConsumableType { get => consumableType; set => consumableType = value; }
 }

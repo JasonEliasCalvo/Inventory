@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ItemTypeEnum
+{
+    consumable,
+    Armor,
+    Weapon,
+}
 
 public class ItemDataSO : ScriptableObject
 {
@@ -12,6 +18,7 @@ public class ItemDataSO : ScriptableObject
     [SerializeField]GameObject _prefab;
     [SerializeField]int _id;
     [SerializeField, TextArea (3,3)]string _description;
+    [SerializeField] ItemTypeEnum _itemType;
 
     public string ItemName { get => _itemName; set => _itemName = value; }
     public Sprite Sprite { get => _sprite; set => _sprite = value; }
@@ -19,4 +26,5 @@ public class ItemDataSO : ScriptableObject
     public int Id { get => _id; set => _id = value; }
 
     public string Description { get => _description; set => _description = value; }
+    public ItemTypeEnum ItemType { get => _itemType; set => _itemType = value; }
 }

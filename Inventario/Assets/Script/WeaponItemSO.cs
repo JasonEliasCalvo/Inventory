@@ -14,8 +14,13 @@ public class WeaponItemSO : ItemDataSO
     [Header("Weapon Data")]
 
     [SerializeField] int damage;
-    [SerializeField] WeaponType type;
+    [SerializeField] WeaponType weaponType;
+
+    public void OnEnable()
+    {
+        ItemType = ItemTypeEnum.Weapon;
+    }
 
     public int Damage { get => damage; set => damage = value; }
-    public WeaponType Type { get => type; set => type = value; }
+    public WeaponType WeaponType { get => weaponType; set => weaponType = value; }
 }

@@ -19,8 +19,13 @@ public class ArmorItemSO : ItemDataSO
     [Header("Armor Data")]
 
     [SerializeField] int _value;
-    [SerializeField] ArmorType _type;
+    [SerializeField] ArmorType armorType;
+
+    public void OnEnable()
+    {
+        ItemType = ItemTypeEnum.Armor;
+    }
 
     public int Value { get => _value; set => _value = value; }
-    public ArmorType Type { get => _type; set => _type = value; }
+    public ArmorType ArmorType { get => armorType; set => armorType = value; }
 }

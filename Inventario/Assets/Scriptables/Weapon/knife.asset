@@ -17,5 +17,6 @@ MonoBehaviour:
   _prefab: {fileID: 0}
   _id: 11
   _description: Hacha divina
+  _itemType: 2
   damage: 999
-  type: 1
+  weaponType: 0

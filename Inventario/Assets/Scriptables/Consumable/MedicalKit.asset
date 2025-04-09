@@ -17,5 +17,6 @@ MonoBehaviour:
   _prefab: {fileID: 0}
   _id: 2
   _description: medical kit
+  _itemType: 0
   _value: 0
-  _type: 0
+  consumableType: 0

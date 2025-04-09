@@ -17,5 +17,6 @@ MonoBehaviour:
   _prefab: {fileID: 0}
   _id: 0
   _description: bala
+  _itemType: 0
   _value: 0
-  _type: 3
+  consumableType: 0

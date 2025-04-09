@@ -12,14 +12,15 @@ public class StandarInventaryButton : MonoBehaviour
     public Image image;
     private Button button;
 
+    public Button Button { get => button; set => button = value; }
+
     private void Awake()
     {
-        button = GetComponent<Button>();
+        Button = GetComponent<Button>();
     }
 
     public void SetButtonAction(UnityAction action)
     {
-        button.onClick.RemoveAllListeners();
-        button.onClick.AddListener(action);
+        Button.onClick.AddListener(action);
     }
 }
