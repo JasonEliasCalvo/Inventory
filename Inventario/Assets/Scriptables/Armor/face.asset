@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Mascare
   _sprite: {fileID: 408835380, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 8755311113496670571, guid: 08b0649ac302d4b4481fab58ac920c37, type: 3}
   _id: 6
   _description: mascarilla
+  _itemType: 1
   _value: 0
-  _type: 4
+  armorType: 0

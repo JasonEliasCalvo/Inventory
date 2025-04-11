@@ -26,9 +26,15 @@ public class InventoryUIHandler : MonoBehaviour
 
     [SerializeField] CanvasGroup previewPanel;
 
+    ItemFactory factory;
+
     public void Start()
     {
+        factory = gameObject.AddComponent<ItemFactory>();
+        factory.Initialize(itemDatabase);
+
         SetInventory(inventory);
+
         InstantiateButtons();
         Showtems();
     }
@@ -48,7 +54,7 @@ public class InventoryUIHandler : MonoBehaviour
         //cambio inventario
         inventory = newInventory;
 
-        // me desuscribo a los eventos del inventario nuevo
+        // me suscribo a los eventos del inventario nuevo
         inventory.ItemAdded += Showtems;
         inventory.ItemUpdated += Showtems;
         inventory.ItemUpdated += UpdateAmountPreview;
@@ -101,8 +107,16 @@ public class InventoryUIHandler : MonoBehaviour
         inventory.RemoveItem(itemSelectedId, 1);
     }
 
+    public void DropItem()
+    {
+        DeleteItem();
+        factory.CreateItem(itemSelectedId, Vector3.zero, null);
+
+    }
+
     private void UpdateAmountPreview()
     {
+        if(itemSelectedId >= 0)
         itemAmountPreview.text = inventory.Items[itemSelectedId].ToString();
     }
 
@@ -112,6 +126,7 @@ public class InventoryUIHandler : MonoBehaviour
         previewPanel.interactable = true;
         previewPanel.blocksRaycasts = true;
     }
+
     public void HidePreviewPanel()
     {
         previewPanel.alpha = 0.2f;

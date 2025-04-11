@@ -18,4 +18,9 @@ public class ItemFactory : MonoBehaviour
         GameObject instantiateItem = Instantiate(searchItem.Prefab, parent);
         instantiateItem.transform.position = position;
     }
+
+    public void Initialize(ItemDatabaseSO item)
+    {
+        itemDatabaseIF = item;
+    }
 }

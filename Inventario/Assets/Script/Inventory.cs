@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class Inventory : MonoBehaviour
 {
@@ -10,15 +9,20 @@ public class Inventory : MonoBehaviour
     public InventoryDelagat ItemRemoved;
     public InventoryDelagat ItemUpdated;
 
-    Dictionary<int, int> _items = new()
-    {
-        {0,15}, {1,10}, {2,1}, {3,5}, {4,15}, {5,25}, {6,5}, {7,20}, {8,4}, {9,6}, {10,30},{11,5}
-    };
+    public ItemDictionarySO ItemDictionary;
+
+    Dictionary<int, int> _items = new();
 
     public Dictionary<int, int> Items { get => _items; set => _items = value; }
 
-    private void Start()
+    private void Awake()
     {
+        if (ItemDictionary != null)
+        _items = ItemDictionary.ToDictionary();
+    }
+
+    private void Start()
+    {  
         ShowInventory();
     }
 
@@ -26,7 +30,7 @@ public class Inventory : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.J))
         {
-            SaveItem(1,5);
+            AddItem(1,5);
         }
         if (Input.GetKeyUp(KeyCode.K))
         {
@@ -34,7 +38,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void SaveItem(int id, int amount)
+    public void AddItem(int id, int amount)
     {
         if (Items.ContainsKey(id))
         {

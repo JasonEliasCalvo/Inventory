@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Bullet
   _sprite: {fileID: -2140736817, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 8983595765311076117, guid: 4d6d463b7ec7e374cbe844441ddf68db, type: 3}
   _id: 0
   _description: bala
   _itemType: 0

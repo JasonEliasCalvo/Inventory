@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Shoes
   _sprite: {fileID: -621771162, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 4713837894307275457, guid: 9cfac1d3425962f459ec096d4f934b9a, type: 3}
   _id: 7
   _description: un zapato
+  _itemType: 1
   _value: 0
-  _type: 3
+  armorType: 0

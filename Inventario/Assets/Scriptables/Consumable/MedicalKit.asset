@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Medical Kit
   _sprite: {fileID: 749148219, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 2030182241050520416, guid: 6f25bd1c09432c94c84197b2c0962000, type: 3}
   _id: 2
   _description: medical kit
   _itemType: 0

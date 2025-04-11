@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Pant
   _sprite: {fileID: 1287135401, guid: 9beb2c1b24d74224f89fcddfbd815bd3, type: 3}
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 3935832841174387532, guid: 8aec4e48e392f064a96a74a00175ef07, type: 3}
   _id: 9
   _description: un pantalon
+  _itemType: 1
   _value: 0
-  _type: 2
+  armorType: 0
