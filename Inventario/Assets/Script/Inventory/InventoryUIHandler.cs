@@ -28,6 +28,8 @@ public class InventoryUIHandler : MonoBehaviour
 
     ItemFactory factory;
 
+    [SerializeField]PlayerController playerController;
+
     public void Start()
     {
         factory = gameObject.AddComponent<ItemFactory>();
@@ -111,7 +113,62 @@ public class InventoryUIHandler : MonoBehaviour
     {
         DeleteItem();
         factory.CreateItem(itemSelectedId, Vector3.zero, null);
+    }
 
+    public void UseItem()
+    {
+        DeleteItem();
+        ItemDataSO itemTemp = itemDatabase.SearchById(itemSelectedId);
+
+        //CheckTypeEnum(itemTemp);
+
+        if (itemTemp.ItemType == ItemTypeEnum.consumable)
+        {
+            ConsumableItemSO consumable = (ConsumableItemSO)itemTemp;
+
+            if (consumable.ConsumableType == ConsumableType.Heal)
+            {
+                playerController.HealSystem.ReciveHeal(consumable.Value);
+            }
+            if (consumable.ConsumableType == ConsumableType.Poison)
+            {
+                playerController.HealSystem.ReciveDamage(consumable.Value);
+            }
+        }
+        if (itemTemp.ItemType == ItemTypeEnum.Weapon)
+        {
+
+        }
+        if (itemTemp.ItemType == ItemTypeEnum.Armor)
+        {
+
+        }
+
+    }
+
+    void CheckTypeEnum(ItemDataSO item)
+    {
+        switch (item.ItemType)
+        {
+            case ItemTypeEnum.Armor:
+                ArmorItemSO armor = (ArmorItemSO)item;
+                break;
+
+            case ItemTypeEnum.Weapon:
+                WeaponItemSO weapon = (WeaponItemSO)item;
+                break;
+
+            case ItemTypeEnum.consumable:
+                ConsumableItemSO consumable = (ConsumableItemSO)item;
+
+                if (consumable.ConsumableType == ConsumableType.Heal)
+                    playerController.HealSystem.ReciveHeal(consumable.Value);
+
+                if (consumable.ConsumableType == ConsumableType.Poison)
+                    playerController.HealSystem.ReciveDamage(consumable.Value);
+
+                break;
+        }
     }
 
     private void UpdateAmountPreview()

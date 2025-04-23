@@ -18,5 +18,5 @@ MonoBehaviour:
   _id: 2
   _description: medical kit
   _itemType: 0
-  _value: 0
+  _value: 10
   consumableType: 0

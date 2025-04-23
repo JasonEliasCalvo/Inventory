@@ -18,5 +18,5 @@ MonoBehaviour:
   _id: 3
   _description: veneno
   _itemType: 0
-  _value: 0
-  consumableType: 0
+  _value: 5
+  consumableType: 1

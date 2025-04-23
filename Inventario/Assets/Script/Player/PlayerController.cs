@@ -5,11 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] Inventory inventory;
+    [SerializeField] HealSystem _healSystem;
 
-    void Start()
-    {
-        
-    }
+    public HealSystem HealSystem { get => _healSystem; set => _healSystem = value; }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
